@@ -1,1 +1,32 @@
+/*dark = rgb(106, 182, 60);*/
+/*light = rgb(136, 197, 108);*/
 
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(183, 217, 171);
+}
+
+.dark {
+  background-color: rgb(106, 182, 60);
+}
+
+.light {
+  background-color: rgb(136, 197, 108);
+}
+
+.size {
+  height: 10%;
+  width: 10%;
+}
+
+button {
+  height: 100%;
+  width: 100%;
+  border-style: none;
+  background-color: rgb(106, 182, 60);
+}
