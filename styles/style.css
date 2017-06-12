@@ -7,6 +7,7 @@
 }
 
 table {
+  background-color: rgb(106, 182, 60);
   border-collapse: collapse;
   margin: 0 auto;
 }
@@ -31,14 +32,19 @@ td {
   max-width: 85px;
 }
 
-button {
+.button {
   height: 100%;
   width: 100%;
   border-style: none;
-  background-color: rgb(106, 182, 60);
+  background-color: inherit;
   color: #fff;
   font-size: 25px;
   font-weight: 100;
+}
+
+.display {
+  text-align: right;
+  margin-right: 30px;
 }
 
 .light-button {
