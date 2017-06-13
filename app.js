@@ -17,6 +17,15 @@
         newArray[0] = +newArray[0];
         newArray[2] = +newArray[2];
         console.log(newArray);
+        if (newArray[1] === '+') {
+          displayValue = newArray[0] + newArray[2];
+        } else if (newArray[1] === '-') {
+          displayValue = newArray[0] - newArray[2];
+        } else if (newArray[1] === '*') {
+          displayValue = newArray[0] * newArray[2];
+        } else if (newArray[1] === '/') {
+          displayValue = newArray[0] / newArray[2];
+        }
       } else {
         displayValue += this.value;
       }
