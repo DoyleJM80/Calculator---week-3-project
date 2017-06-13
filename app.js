@@ -3,8 +3,6 @@
 
   var buttons = document.querySelectorAll('.button');
 
-  console.log(buttons);
-
   for (var i = 0; i < buttons.length; i++) {
     var currentButton = buttons[i];
     currentButton.onclick = function() {
@@ -16,7 +14,6 @@
         var newArray = displayValue.split(' ');
         newArray[0] = +newArray[0];
         newArray[2] = +newArray[2];
-        console.log(newArray);
         if (newArray[1] === '+') {
           displayValue = newArray[0] + newArray[2];
         } else if (newArray[1] === '-') {
