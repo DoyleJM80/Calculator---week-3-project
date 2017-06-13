@@ -22,7 +22,7 @@
   }
 
   // var display = document.getElementById('display');
-  // var didget = document.querySelectorAll('.didget');
+  // var digit = document.querySelectorAll('.digit');
   // var mathOperator = document.querySelectorAll('.light-button');
   // var equals = document.querySelector('.equal');
   // var clear = document.querySelector('.clear');
@@ -96,8 +96,6 @@
   // equal.addEventListener('click', function(){
   //   document.getElementById('display').value = eval(document.getElementById('display').value);
   // });
-
-
 
 
 
