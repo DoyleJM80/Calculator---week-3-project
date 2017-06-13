@@ -11,8 +11,12 @@
       var displayValue = document.getElementById('display').innerHTML;
       if (this.id === 'clear') {
         displayValue = this.value;
-      } else if (this.id === 'equal') {
-        displayValue = eval(displayValue);
+      }
+      else if (this.id === 'equal') {
+        var newArray = displayValue.split(' ');
+        newArray[0] = +newArray[0];
+        newArray[2] = +newArray[2];
+        console.log(newArray);
       } else {
         displayValue += this.value;
       }
@@ -20,6 +24,30 @@
     };
 
   }
+
+
+
+  // var buttons = document.querySelectorAll('.button');
+  //
+  // console.log(buttons);
+  //
+  // for (var i = 0; i < buttons.length; i++) {
+  //   var currentButton = buttons[i];
+  //   currentButton.onclick = function() {
+  //     var displayValue = document.getElementById('display').innerHTML;
+  //     if (this.id === 'clear') {
+  //       displayValue = this.value;
+  //     }
+  //     else if (this.id === 'equal') {
+  //       displayValue = eval(displayValue);
+  //     }
+  //     else {
+  //       displayValue += this.value;
+  //     }
+  //     document.getElementById('display').innerHTML = displayValue;
+  //   };
+  //
+  // }
 
   // var display = document.getElementById('display');
   // var digit = document.querySelectorAll('.digit');
